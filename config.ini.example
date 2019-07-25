@@ -1,0 +1,10 @@
+[run]
+debug=no
+sleepTime=0
+
+[report]
+playAudio=yes
+reportToTelegram=no
+telegramBotKey=0123456789:qwertyuiopasdfghjklzxcvbnm
+telegramBotChat=0123456789
+locationName=Home
