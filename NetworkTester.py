@@ -52,7 +52,8 @@ def isNetworkAvailable():
     output = os.popen(runPath + "pingTest.sh")
     pingResult = str(output.read())
     # print(pingResult)
-    pingSuccess = pingResult.count('from')
+    # pingSuccess = pingResult.count('from')
+    pingSuccess = pingResult.count('Connected')
     if pingSuccess > 1:
         return True
     else:
